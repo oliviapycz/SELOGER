@@ -1,0 +1,50 @@
+
+
+  /***********AIDE ET REPERE**************/
+
+/*COULEUR rouge header  #e00034;
+COULEUR grise footer #3a3a3a;
+
+.
+;
+
+
+
+  /***********AIDE ET REPERE**************/
+@font-face {
+  font-family: 'source-sans-pro';
+  src:url(fontawesome-webfont.woff2);
+}
+
+*{
+  box-sizing: padding-box;
+  margin: auto;
+}
+body{
+  font-family: 'source-sans-pro', sans-serif;
+  background-image: url(../IMAGES/cover.jpg);
+}
+#header{
+  background-color: #e00034;
+  width: auto;
+  height: 4.5vh;
+  display: flex;
+  justify-content: space-around;
+}
+.element-header{
+  font-size: 14px;
+  color: #fff;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width:500px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+#footer{
+  background-color: #3a3a3a;
+}
